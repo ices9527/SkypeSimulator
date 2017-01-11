@@ -1,0 +1,9 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="SkypeSimulator.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="MyTEBot" Type="System.String" Scope="User">
+      <Value Profile="(Default)">http://60.205.213.71:81/MyTEBoT/EnterpriseId/{0}/Messsage/{1}</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>
