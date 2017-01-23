@@ -58,7 +58,7 @@ namespace SkypeSimulator
         {
             var responseDelegate = result.AsyncState as GetResponseDelegate;
             var answer = responseDelegate.EndInvoke(result);
-            answer = answer.Trim('[', ']').Replace('"', ' ').Replace("\\n", "\n").Replace("\\", string.Empty).Trim();
+            answer = answer.Trim('[', ']').Replace('"', ' ').Replace("\\n", "\n").Replace("\\", string.Empty).Replace("|", "\\").Trim();
             if (answer.Trim() != string.Empty)
             {
                 App.Current.Dispatcher.Invoke((Action) delegate // <--- HERE
